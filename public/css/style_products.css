@@ -1,0 +1,40 @@
+.add{
+
+    display: flex;
+    margin-top: 20px;
+}
+.add a{
+    display: inline-block;
+    text-decoration: none;
+    color: #394352;
+    text-align: left;
+}
+.add h4{
+    display: inline-block;
+    text-align: right;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.add a:hover {
+    color: #4e5c70;
+}
+.add a i {
+    font-size: 18px;
+    
+}
+.add a span {
+    display: inline-block;
+    text-align: center;
+    background-color: #63748e;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 16px;
+    width: 16px;
+    height: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 22px;
+    right: 0;
+}

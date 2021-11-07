@@ -1,0 +1,116 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:url("/assets/background.png");
+	background-repeat: no-repeat;
+}
+.registerbox{
+	width: 320px;
+	height: 500px;
+	background:#000;
+	color:#fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 50px 30px;
+	border-radius: 15px;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Indie Flower' , cursive;
+	font-style: initial;
+}
+.registerbox .registerinputBox{
+    position: relative ;
+}
+.registerbox .registerinputBox input{
+    width: 100%;
+    padding:  10px 0 ;
+    margin-top: 5px;
+    font-size: 12px;  
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #F3B8B8;
+    outline: none;
+    background: transparent ;   
+}
+.registerbox .registerinputBox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 1.4s;
+    font-family: 'Indie Flower' , cursive;   
+}
+.registerbox .registerinputBox input:focus ~ label,
+.registerbox .registerinputBox input:valid ~ label{
+    top: -18px;
+    left: 0;
+    color: #F3B8B8;
+    font-size: 12px;    
+}
+#emailbox{
+	margin-bottom: -5px;
+}
+#usernamebox{
+	margin-bottom: -5px;
+	margin-top: 20px;
+}
+#passwordbox{
+	margin-bottom: -5px;
+}
+#confirmpasswordbox{
+	margin-bottom: -20px;
+	margin-top: 10px;
+}
+.registerbox button[type="submit"]{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	border:none;
+	outline: none;
+	height: 40px;
+	background:#ef0206;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	font-family: 'Indie Flower' , cursive; 
+	font-weight: bold;
+}
+.registerbox button[type="submit"]:hover{
+	cursor: pointer;
+	background:#ecaf08;
+	color: #000;
+}
+.have_account{
+	margin-left: 70px;
+}
+.registerbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color:darkgrey;
+	font-family: 'Indie Flower' , cursive; 
+}
+.registerbox a:hover{
+	color:#ecaf08;
+}

@@ -1,0 +1,44 @@
+.add_product {
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+}
+
+.add_product form  div label {
+    font-size:18px;
+}
+
+.add_product form input {
+    width: 500px;
+}
+.add_product form {
+    text-align: left;
+}
+
+.info{
+    margin-top: 20px; 
+}
+
+.alert {
+    height:50px; 
+    width: fit-content;
+}
+
+
+button[type="submit"] {
+    background: #4e5c70;
+    border: 0;
+    color: #FFFFFF;
+    width: 100px;
+    padding: 12px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+button[type="submit"]:hover {
+    background: #434f61;
+}
